@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>This is the Title</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Jeremy Sonnenschein">
+        <link rel="stylesheet" type="css" href=""
+	</head>
+
+	<body>
+			<div>
+			<h1> This is Heading 1</h1>
+			</div>
+
+			<div>
+				<h2>This is the Heading 2 element</h2>
+			</div>
+
+		
+			<div>
+				<p><strong>I am a bold student of The Tech Academy!</strong></p>
+            </div>
+
+            <div>
+                <a href="https://www.learncodinganywhere.com/">This is The tech Academy Website!</a>
+            </div>
+
+            <div class="logo">
+                <img src="https://www.learncodinganywhere.com/images/tech_logo/The%20Tech%20Academy%20Logo.png"
+
+                alt="The Tech Academy Logo" width=(600px); height=(300px)>
+            </div>
+            
+            <div class="h3">
+                <h3>Have you seen The Tech Academy's Student Orentation Video?</h3>
+            </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ihKS-KDolf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</body>
+</html>
