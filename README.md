@@ -6,4 +6,4 @@ Here you will find some of the very first code I have written.
 
 Several projects included are one page website, html tables/lists, css roollover menu, and other css styling.
 
-The languages that were used were HTML and CSS.
+The Markup languages that were used were HTML and CSS.
