@@ -3,8 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Sunshine Golf Resort</title>
-		<link rel="stylesheet" href="./Project/CSS/one-page-website.css">
-		<link rel="stylesheet" href="./Project/CSS/animations.css">
+		<link rel="stylesheet" href="./css/one-page-website.css">
+		<link rel="stylesheet" href="./css/animations.css">
+		<script src="./js/main.js"></script>
 	</head>
 	<body>
 
@@ -31,6 +32,80 @@
 		</div>
 		<!-- END HOME -->
 
+
+
+		<!-- Images used to open the lightbox -->
+<div class="row">
+	<div class="column">
+	  <img src="./thumbnails/img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+	</div>
+	<div class="column">
+	  <img src="./thumbnails/img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+	</div>
+	<div class="column">
+	  <img src="./thumbnails/img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+	</div>
+	<div class="column">
+	  <img src="./thumbnails/img4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+	</div>
+  </div>
+  
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+  
+	  <div class="mySlides">
+		<div class="numbertext">1 / 4</div>
+		<img src="./thumbnails/img1_wide.jpg" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">2 / 4</div>
+		<img src="./thumbnails/img2_wide.jpg" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">3 / 4</div>
+		<img src="./thumbnails/img3_wide.jpg" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">4 / 4</div>
+		<img src="./thumbnails/img4_wide.jpg" style="width:100%">
+	  </div>
+  
+	  <!-- Next/previous controls -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+	  <!-- Caption text -->
+	  <div class="caption-container">
+		<p id="caption"></p>
+	  </div>
+  
+	  <!-- Thumbnail image controls -->
+	  <div class="column">
+		<img class="demo" src="./thumbnails/img1.jpg" onclick="currentSlide(1)" alt="Nature">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="./thumbnails/img2.jpg" onclick="currentSlide(2)" alt="Snow">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="./thumbnails/img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="./thumbnails/img4.jpg" onclick="currentSlide(4)" alt="Lights">
+	  </div>
+	</div>
+  </div>
+
+
+
+
 		<!-- GALLERY -->
 		<section id="gallery">
 			<div class="container">
@@ -40,7 +115,7 @@
 					<!-- PHOTO CONTAINER 1-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./Project/images/thumbnails/tpc_scottsdale.jpg" alt="TPC Scottsdale">
+							<img src="./thumbnails/tpc_scottsdale.jpg" alt="TPC Scottsdale">
 							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Take a swing at Sunshine Resort</p>
@@ -54,7 +129,7 @@
 					<!-- PHOTO CONTAINER 2-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./Project/images/thumbnails/augusta_15th.jpg" alt="Masters Augusta Ga">
+							<img src="./thumbnails/augusta_15th.jpg" alt="Masters Augusta Ga">
 							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Take a swing at Sunshine Resort</p>
@@ -66,7 +141,7 @@
 					<!-- PHOTO CONTAINER 3-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./Project/images/thumbnails/Congressional_18th.jpg" alt="18th Congressional">
+							<img src="./thumbnails/Congressional_18th.jpg" alt="18th Congressional">
 							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Take a swing at Sunshine Resort</p>
@@ -78,7 +153,7 @@
 					<!-- PHOTO CONTAINER 4-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./Project/images/thumbnails/Kapalua.jpg" alt="Kapalua 18th">
+							<img src="./thumbnails/Kapalua.jpg" alt="Kapalua 18th">
 							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Take a swing at Sunshine Resort</p>
@@ -90,7 +165,7 @@
 					<!-- PHOTO CONTAINER 5-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./Project/images/thumbnails/quial_hollow.jpg" alt="Quail Hallow">
+							<img src="./thumbnails/quial_hollow.jpg" alt="Quail Hallow">
 							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Take a swing at Sunshine Resort</p>
@@ -102,7 +177,7 @@
 					<!-- PHOTO CONTAINER 6-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./Project/images/thumbnails/tpc_sawgrass.jpg" alt="TPC SawGrass">
+							<img src="./thumbnails/tpc_sawgrass.jpg" alt="TPC SawGrass">
 							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Take a swing at Sunshine Resort</p>
